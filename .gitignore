@@ -1,0 +1,201 @@
+# Unity 프로젝트용 .gitignore
+
+# ===========================
+# Unity 생성 폴더
+# ===========================
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# ===========================
+# Unity 메모리 스냅샷
+# ===========================
+[Mm]emoryCaptures/
+
+# ===========================
+# Unity 레코딩
+# ===========================
+[Rr]ecordings/
+
+# ===========================
+# Unity 생성 메타 파일
+# ===========================
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# ===========================
+# Unity 크래시 리포트
+# ===========================
+sysinfo.txt
+
+# ===========================
+# Unity 생성 파일
+# ===========================
+*.stackdump
+*.bakert
+
+# ===========================
+# Unity 자동 생성 솔루션 파일
+# ===========================
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# ===========================
+# Visual Studio / VSCode
+# ===========================
+.vs/
+.vscode/
+*.vsconfig
+
+# ===========================
+# JetBrains Rider
+# ===========================
+.idea/
+*.iml
+modules.xml
+projectSettingsUpdater.xml
+
+# ===========================
+# MonoDevelop
+# ===========================
+*.userprefs
+
+# ===========================
+# OS 생성 파일
+# ===========================
+# Windows
+Thumbs.db
+Thumbs.db.meta
+Desktop.ini
+
+# macOS
+.DS_Store
+.DS_Store*
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ===========================
+# Unity Package Manager
+# ===========================
+/[Pp]ackages/packages-lock.json
+
+# ===========================
+# Unity Plastic SCM
+# ===========================
+.plastic/
+.plasticpending
+
+# ===========================
+# Unity Hub
+# ===========================
+UserSettings/Layouts/
+UserSettings/EditorUserSettings.asset
+
+# ===========================
+# 빌드 결과물
+# ===========================
+*.apk
+*.aab
+*.app
+*.exe
+*.unitypackage
+*.symbols.zip
+
+# ===========================
+# Gradle (Android 빌드)
+# ===========================
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+
+# ===========================
+# Unity Addressables
+# ===========================
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# ===========================
+# TextMesh Pro
+# ===========================
+/[Aa]ssets/TextMesh*Pro/
+
+# ===========================
+# Unity Recorder
+# ===========================
+/[Rr]ecordings/
+
+# ===========================
+# Unity Profiler
+# ===========================
+/[Pp]rofiler[Rr]eport*
+
+# ===========================
+# 기타 제외 항목
+# ===========================
+# 자동 저장 파일
+*.autosave
+
+# 백업 파일
+*.bak
+*.backup
+*_backup*
+*_BACKUP_*
+*_BASE_*
+*_LOCAL_*
+*_REMOTE_*
+
+# 테스트 커버리지
+/[Cc]odeCoverage/
+opencov/
+TestResults/
+
+# ===========================
+# 프로젝트별 설정 (필요시 수정)
+# ===========================
+# 특정 에셋 스토어 패키지 제외 (예시)
+# /[Aa]ssets/[Tt]hirdParty/
+
+# 로컬 설정 파일
+local_settings.json
+*.local.meta
+
+# ===========================
+# Unity 2021.3+ 특정
+# ===========================
+/[Aa]ssets/[Ss]amples/
+/[Pp]ackageCache/
+
+# ===========================
+# 예외 처리 (추적하고 싶은 파일)
+# ===========================
+# !특정파일.확장자
