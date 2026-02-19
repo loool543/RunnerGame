@@ -1,0 +1,11 @@
+{
+    "asset": "ebe93c942af8958489e199577f9e4cfb",
+    "fileName": "019b6dfc-35c9-7655-aa5a-126c8f6815d0.pose.json",
+    "prompt": "Run in a place character doesn't move position",
+    "negativePrompt": "",
+    "model": "9e46c009-67d8-4254-a3a0-32e3168247ee",
+    "modelName": "Text to Motion",
+    "customSeed": 434792458,
+    "w3CTraceId": "7dc522ef255251b8296771aa0a54b5e1",
+    "isTrimmed": false
+}

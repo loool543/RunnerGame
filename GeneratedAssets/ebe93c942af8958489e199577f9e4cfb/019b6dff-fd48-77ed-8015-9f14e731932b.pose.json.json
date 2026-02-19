@@ -1,0 +1,11 @@
+{
+    "asset": "ebe93c942af8958489e199577f9e4cfb",
+    "fileName": "019b6dff-fd48-77ed-8015-9f14e731932b.pose.json",
+    "prompt": "A looping running animation where the character stays in the same position, no real moving. just stay position",
+    "negativePrompt": "",
+    "model": "9e46c009-67d8-4254-a3a0-32e3168247ee",
+    "modelName": "Text to Motion",
+    "customSeed": 1365092,
+    "w3CTraceId": "284e2d74694972760e2a6639d15dc96b",
+    "isTrimmed": false
+}
